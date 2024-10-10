@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestão de Estoque</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Economiza Estoque</h1>
+    <h2>Controle Inteligente</h2>
+    <button onclick="showProductForm()">Adicionar Produto</button>
+    <div id="new-product-form" style="display: none;">
+      <input type="text" id="new-product-name" placeholder="Nome do Produto" onkeypress="handleKeyPress(event)">
+      <button onclick="addProduto()" class="ok-button">OK</button>
+  </div>
+    
+    <div id="produtos-container">
+      <!-- Produtos serão adicionados dinamicamente aqui -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

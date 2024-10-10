@@ -1,0 +1,177 @@
+body {
+  background: linear-gradient(135deg, #BA000B, #6B0405);
+  /* Fundo com gradiente diagonal */
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #B5BFD7;
+  /* Cor que combina com o restante */
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #3e3e3e;
+  /* Fundo escuro */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.produto-container {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #4a4a4a; /* Fundo escuro */
+  border-radius: 8px;
+}
+
+.produto {
+  padding: 10px;
+  background-color: #3e3e3e; /* Fundo mais escuro */
+  border: 1px solid #5e5e5e;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Estilo para o título do produto */
+.produto h2 {
+  margin: 0; /* Ajuste de margem */
+  padding: 5px; /* Ajustar padding */
+  background-color: #B5BFD7; /* Background color dos títulos do card */
+  color: #000000; /* Cor do texto */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 18px; /* Tamanho menor da fonte */
+  text-transform: uppercase; /* Texto em uppercase */
+}
+
+/* Estilo para o título do produto */
+.produto h3 {  /* Alterado de h2 para h3 */
+  margin: 0; /* Ajuste de margem */
+  padding: 5px; /* Ajustar padding */
+  background-color: #B5BFD7; /* Background color dos títulos do card */
+  color: #000000; /* Cor do texto */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 18px; /* Tamanho menor da fonte */
+  text-transform: uppercase; /* Texto em uppercase */
+}
+
+
+.quantidade {
+  display: flex;
+  justify-content: center;
+  /* Centraliza os botões e o input de quantidade */
+  align-items: center;
+  margin: 10px 0;
+  /* Adiciona margem em torno da quantidade */
+}
+
+.quantidade button {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+.quantidade input {
+  width: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.parametro {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  /* Centraliza os parâmetros */
+  align-items: center;
+}
+
+.parametro input {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.parametro .parametro-item {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  /* Margem lateral para os parâmetros */
+}
+
+.parametro .label {
+  font-size: 14px;
+  /* Fonte menor para parâmetros */
+  margin-right: 5px;
+}
+
+button {
+  margin: 10px 0;
+}
+
+#new-product-form {
+  margin: 20px 0;
+}
+
+#new-product-form input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.quantidade button {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  margin: 0 5px;
+  background-color: #cccccc;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px
+}
+
+.quantidade button:hover {
+  background-color: #aaaaaa;
+}
+
+.produto .delete-button {
+  background-color: #DD0B0C;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.produto .delete-button:hover {
+  background-color: #AE2639;
+}
+
+.label {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+/* Botão verde arredondado */
+.ok-button {
+  background-color: #4CDA64;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.ok-button:hover {
+  background-color: #3BB153;
+}
